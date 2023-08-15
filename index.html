@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WATCH WORKS</title>
+  <link rel="icon" type="image" href="image/logo.png">
+  <!-- bootstrap 5 CDN links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- font awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Lexend+Exa:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <!-- custome css files link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/handf.css">
+  <script src="https://Kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<style>
+
+    #loading{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: #fff url('https://www.animatedimages.org/data/media/137/animated-clock-image-0010.gif')
+      no-repeat center;
+      z-index: 99999;
+
+    }
+    ol li{
+      list-style: disc;
+      font-family: 'Raleway', sans-serif;    
+    }
+    @media(max-width: 700px)
+    {
+    .best1 img{
+      margin-top: -18px;
+    }
+    .men img{
+      width: 150px;
+      height: 250px;
+      margin-top: 20px;
+    }
+    .men h1{
+      margin-top: 0px;
+    }
+    .men1 img{
+      margin-top: -10px;
+    }
+    }
+</style>
+<body onload="myfunction()">
+  
+   <!-- loader -->
+   <div id="loading">
+     
+   </div><!-- loading end -->
+
+<!-- navbar section -->
+<header class="header">
+ <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="image/logo.png" class="img-fluid weblogo" alt="logo">
+    </a>
+    <button class="navbar-toggler pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="brand.html">BRAND</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="men.html">MEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="women.html">WOMEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn " data-bs-toggle="modal" data-bs-target="#login">LOGIN</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+</header>
+<!-- navbar section end -->
+
+
+<!-- banner section -->
+  <section class="banner ">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 2"></button> 
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 2"></button> 
+                      </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="image/b1.jpg" class="d-block w-100" alt="...">
+                        <!--<div class="text-start carousel-caption">                         
+                        </div>carousel-caption--> 
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="image/b2.png" class="d-block w-100" alt="...">
+                      </div> 
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="image/b3.jpg" class="d-block w-100" alt="...">
+                      </div> 
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="image/b4.jpg" class="d-block w-100" alt="...">
+                      </div> 
+                    </div> 
+                  </div>
+        </div><!--row end-->
+      </div><!--container-fluid div end-->
+  </section>
+<!-- banner section exit -->
+
+<div class="container-fluid mt-5 text-center ">
+    <div class="container">
+        <div>
+            <h1 style="color:darkslategray;">BEST SELLER</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 best1">
+                <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/d/o/doxa-sub-300-t-785-00-031-20-large_1.jpg">
+        <h4>Doxa<br>
+            <span style="color: #9d0000;">SUB 300T</span><br>
+            ₹ 3,72,000</h4></a>
+            </div>
+      <div class="col-md-3 men">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/h/-/h-moser-cie-3200-1205.jpg">
+        <h4>H. Moser & Cie.<br>
+            <span style="color: #9d0000;">Pioneer</span><br>
+            ₹ 13,40,000</h4></a>
+      </div>
+      <div class="col-md-3 men">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/a/r/arnold-son-eight-day-1-edas-u01c-s136d.jpg">
+        <h4>Arnold & Son<br>
+            <span style="color: #9d0000;">Eight-Day</span><br>
+            ₹ 11,53,000</h4></a>
+      </div>
+      <div class="col-md-3 men">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/p/a/parmigiani-tonda-pfc274-1002500-ha3241.jpg">
+            <h4>Parmigiani<br>
+            <span style="color: #9d0000;">Tonda</span><br>
+            ₹ 26,90,000</h4></a>
+      </div>
+      <div style="border-bottom: 1px solid black;margin-top: 25px;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5 text-center men">
+   <div class="container">
+    <div>
+      <h1 style="color:darkslategray;">SHOP FOR MEN</h1>
+    </div>
+    <div class="row mt-4 ">
+      <div class="col-md-4 men1">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/a/r/armin-strom-resonance-mfr-3201-1-large_1.jpg" class="img-fluid">
+        <h4>ARMIN STROM<br>
+            <span style="color: #9d0000;">Special edition Guilloché Dial</span><br>
+             ₹ 53,50,000</h4></a>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/g/i/girard-perregaux-bridges-82000-11-631-fa6a.jpg" class="img-fluid">
+        <h4>Girard-Perregaux<br>
+            <span style="color: #9d0000;">Bridges</span><br>
+            ₹ 16,56,000</h4></a>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/p/a/parmigiani-tonda-pfc274-1002500-ha3241.jpg" class="img-fluid">
+        <h4>Oris<br>
+            <span style="color: #9d0000;">ProPilot</span><br>
+            ₹ 5,08,500</h4></a>
+      </div>
+      <div style="border-bottom: 1px solid black;margin-top: 25px;"></div>
+    </div>
+   </div>
+</div>
+
+<div class="container-fluid mt-5 text-center men">
+   <div class="container">
+    <div>
+      <h1 style="color:darkslategray;">SHOP FOR WOMEN</h1>
+    </div>
+    <div class="row mt-4 ">
+      <div class="col-md-4">
+        <a href=""><img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/products/FTW6073-3P-Fossil-1_2b26460c-1306-4ee3-9ebc-ab2c84a20c72_360x.jpg?v=1612776174"
+          style="height:280px;width:240px">
+        <h4>Fossil<br>
+            <span style="color: #9d0000;"> Gen 5E Rose Gold </span><br>
+            ₹ 18,495</h4></a>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/products/Untitled-1_0012_SKW2837-1_360x.jpg?v=1577376313" style="height:280px;width:240px">
+        <h4>Skagen<br>
+            <span style="color: #9d0000;"> Signatur Blue Dial </span><br>
+            ₹ 9,995</h4></a>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/products/MK3192-3_360x.jpg?v=1573323506" style="height:280px;width:240px">
+        <h4>Michael Kors Darci<br>
+            <span style="color: #9d0000;"> Rose Gold Dial</span><br>
+            ₹ 15,995</h4></a>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class="container-fluid icon mt-5">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <i class="fa fa-truck" aria-hidden="true"></i>
+        <h1>Free Shipping Across India</h1>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-wrench" aria-hidden="true"></i>
+        <h1>24 Months Warranty</h1>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+        <h1>7 Day Exchange</h1>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <h1>100% Authenticity Guarantee</h1>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class="container-fluid footer">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="image/logo.png">
+      </div>
+      <div class="col-md-4 mt-4">
+        <h1>OUR WORLD</h1>
+        <ol>
+        <li><a href="about.html">OUR LEGACY</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="#">PRIVACY POLICY</a></li>
+        <li><a href="men.html">MEN’S WATCHES</a></li>
+        <li><a href="women.html">WOMEN’S WATCHES</a></li>
+        <li><a href="#">SERVICE CENTER</a></li>
+        </ol>
+      </div>
+      <div class="col-md-4 mt-4">
+        <h1>OUR BRANDS</h1>
+        <ol>
+        <li><a href="brand.html">ROLEX</a></li>
+        <li><a href="brand.html">PATEK PHILIPPE</a></li>
+        <li><a href="brand.html">BREITLING</a></li>
+        <li><a href="brand.html">BVLGARI</a></li>
+        <li><a href="brand.html">CARTIER</a></li>
+        <li><a href="brand.html">RICHARD MILLE</a></li>
+        </ol>
+      </div>
+    </div><!--row end -->
+   </div><!-- container end -->
+</div><!-- container-fluid end -->
+
+<div class="container-fluid text-center footer2">
+  <div class="container">
+    <h1 style="font-family: 'Lexend Exa', sans-serif;">© 2022 Watch Works. All Rights Reserved.</h1>
+  </div>
+</div>
+
+
+<script>
+  var preload = document.getElementById('loading')
+  function myfunction(){
+    preload.style.display='none';
+  }
+</script>
+
+<!-- Button trigger modal signup-->
+    <div class="modal fade" id="signup">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">REGISTRATION</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+          </div><!--modal-header end-->
+          <div class="modal-body">
+            <form onsubmit="return validation()">
+              <center>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#signup">Signup</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+              </center>
+              <div class="mb-3 mt-3">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" required>
+                <span id="name1"></span>
+              </div>
+              <div class="mb-3">
+                <label>Email</label>
+                <input type="text" name="email" class="form-control" required>
+                <span id="email1"></span>
+              </div>
+              <div class="mb-3">
+                <label>Mobile no.</label>
+                <input type="text" name="mobile" class="form-control" required>
+                <span id="mobileno"></span>
+              </div>
+              <div class="mb-3">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" required>
+                <span id="passw"></span>
+              </div>
+              <div class="mb-3">
+                <label>Confirm Password</label>
+                <input type="password" name="cpassword" class="form-control" required>
+                <span id="cpassw"></span>
+              </div>
+              <center>
+                <button class="btn btn-info">Register</button>
+              </center>
+            </form>
+          </div><!--modal-body end-->
+        </div><!--modal-content end-->
+      </div><!--modal-dialog modal-sm end-->
+    </div>
+<!---modal signup end--->
+
+<!-- Button trigger modal login-->
+    <div class="modal fade" id="login">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+          </div><!--modal-header end-->
+          <div class="modal-body">
+            <form onsubmit="return validation()">
+              <center>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#signup" >Signup</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#login" >Login</button>
+              </center>
+              <div class="mb-3 mt-3">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" required>
+              </div>
+              <div class="mb-3 form-check">  
+                <input type="checkbox" name="remember" id="r" class="form-check-input" value="yes">
+                <label class="form-check-label" for="r">Remember me</label>
+              </div>
+              <center>
+                <button class="btn btn-info text-center">Login</button>
+              </center>
+            </form>
+          </div><!--modal-body end-->
+        </div><!--modal-content end-->
+      </div><!--modal-dialog modal-sm end-->
+    </div>
+<!---modal login end--->
+
+<!-- java script link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

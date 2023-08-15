@@ -1,0 +1,197 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner  
+4. Best Deals
+5. Donate 
+6. Footer
+-------------------- */
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+ol li{
+      list-style: disc;
+      font-family: 'Raleway', sans-serif;
+    }
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    color: darkslategray;
+}
+.header .navbar {
+    background-color: #e5e9ecde;
+    height: 110px;
+}
+.header .navbar-brand .weblogo{
+    width: 145px;
+    height: 128px;
+}
+.header .nav-item {
+    margin: 0 5px;
+}
+.header .nav-item .nav-link{
+    font-size:17px;
+    font-weight: 500;
+    color:darkslategray;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.header .btn{
+    text-decoration: none;
+    color: white;
+    background-color: hwb(200deg 57% 30% / 60%);
+    border-color: hwb(200deg 57% 30% / 60%);
+}
+.header i{
+    font-size: 20px;
+    color: black;
+    }
+.header .nav-item .nav-link.active{
+    color:darkcyan;
+}
+.banner .carousel-inner img{
+    height: 570px;
+    margin-top: 110px;
+}
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background-color:var(--bg-light-white) !important;
+}
+.best1 img{
+    width: 145; 
+    height: 250px;
+}
+.best1 a{
+    color: darkslategray;
+    text-decoration: none;
+}
+.best1 h4{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.men img{
+    width: 145px;
+    height: 280px;
+}
+.men a{
+    color: darkslategray;
+    text-decoration: none;
+}
+.men h4{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.men1 img{
+    width: 155px;
+    height: 280px;
+}
+/*Icons*/
+.icon{
+    background-color: lightslategray;
+}
+.icon h1{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 15px;
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+    margin-top: 19px;
+}
+.footer img{
+    width: 260px;
+    height: 270px;
+}
+.footer h1{
+    color: darkslategray;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+}
+.footer2{
+    height: 50px;
+    background-color: lightslategrey;
+}
+.footer2 h1{
+    font-size: 13px;
+    color: white;
+    padding-top: 18px;
+}/*
+.rolex{
+    font-family: Helvetica Now Text,sans-serif; 
+    text-decoration: underline;
+}*/
+.men{
+    font-family: Helvetica Now Text,sans-serif;
+}
+.contact h1{
+        color: #ffffffff;
+        text-align: center;
+        padding-top: 190px;
+        font-size: 73px;
+        font-family: auto;
+}
+.rol img{
+    height: 300px;
+    width: 325px;
+}
+.p img{
+    height: 250px;
+    width: 250px;
+}
+.r img{
+    height: 295px;
+    width: 250px;
+    margin-left: 10px;
+}
+.b img{
+    width: 165px;
+    height: 250px;
+}
+.m h1{
+    font-family: 'Lexend Exa', sans-serif;
+    color: darkslategray;
+    font-size: 35px;
+    margin-top: 130px;
+}
+.m h2{
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+}
